@@ -1,12 +1,11 @@
 # thread-safe-counter
 
-Mutex can only go to shared resources where the key is acquired.
+In Mutex, only the thread that gets the key can go to the shared resource.
 
 
 Semaphores allow multiple threads to access shared resources using one commonly managed value.
 
 
-And it can have many variables. 
+And it can have many variables. That's when the code gets complicated. 
 
-
-That's when the code gets complicated. So there is this difference.
+So there is this difference.
